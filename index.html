@@ -3,9 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Dictionary Application</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
 
+    <body>
+        <audio src="" id="sound"></audio>
+        <div class="container">
+            <div class="search-box">
+                <input type="text" id="inp-word" placeholder="Type the word here ...">
+                <button id="search-btn">Search</button>
+            </div>
+            <div class="result">
+                <div class="word">
+                    <h3>Sample</h3>
+                    <button>
+                        <i class="fa-solid fa-volume-high"></i>
+                    </button>
+                </div>
+                <div class="details">
+                    <p>Pos</p>
+                    <p>/sample/</p>
+                </div>
+                <p class="word-meaning">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, distinctio?</p>
+                <p class="word-example">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem, distinctio?</p>
+            </div>
+        </div>
     </body>
 </html>
